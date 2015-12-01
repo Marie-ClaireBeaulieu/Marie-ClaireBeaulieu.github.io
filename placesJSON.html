@@ -16,16 +16,20 @@
     </head>
     <body>
         <h1>Instructions for Place Annotations Using JSON-LD</h1>
-        
+        <p>In this part of the project, we must indicate the places with which a mythological figure is associated. Find place names in your Smith entry and follow the steps below.</p>
        <h2>Step 1</h2>
         <p>Copy and paste the following in a plain text document:</p>
        <pre id="example-glaucus">
       {
           "@context": "http://www.w3.org/ns/oa-context-20130208.json",
-            "@id": " Glaucus",   
-            "annotatedBy": {
-               "@type": "foaf:Person",  
-                "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu"   
+            "@id": "Potniae-Glaucus",   
+            "annotatedBy": [ { 
+	        "@type": "foaf:Person", 
+	        "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu" },
+ 
+{ 	"@type": "foaf:Person", 
+	"@id": "http://sosol.perseids.org/sosol/users/Bridget%20Almas" } ],
+	
             },
             "@type": "oa:Annotation",  
             "dcterms:title": "Identifies Potniae as the town in which Glaucus gets devoured by his mares",  
@@ -57,10 +61,10 @@
       
         {
           "@context": "http://www.w3.org/ns/oa-context-20130208.json", <strong class="instructions">leave as is</strong>
-            "@id": "Potniae Glaucus",   <strong class="instructions">create a short ID for your annotation. Each must be unique</strong>
-            "annotatedBy": { <strong class="instructions">leave as is</strong>
-               "@type": "foaf:Person",  <strong class="instructions">leave as is</strong>
-               "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu" "http://sosol.perseids.org/sosol/users/balmas01@tufts.edu"<a target="blank" href="http://marie-clairebeaulieu.github.io/findIDurl.html"><strong class="instructions">Find this ID on Perseids</strong></a>
+            "@id": "Potniae-Glaucus",   <strong class="instructions">create a short ID for your annotation. Each must be unique</strong>
+            "annotatedBy": [ { <strong class="instructions">leave as is</strong>
+	        "@type": "foaf:Person", "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu" }, 
+	   {    "@type": "foaf:Person", "@id": "http://sosol.perseids.org/sosol/users/Bridget%20Almas" } ], "<a target="blank" href="http://marie-clairebeaulieu.github.io/findIDurl.html"><strong class="instructions">Find this ID on Perseids</strong></a>
             },
             "@type": "oa:Annotation",  <strong class="instructions">leave as is</strong>
             "dcterms:title": "Identifies Potniae as the town in which Glaucus gets devoured by his mares",  <strong class="instructions">create a descriptive ID for your annotation</strong>
@@ -74,7 +78,7 @@
             "hasSelector": {  <strong class="instructions">leave as is</strong>
                 "@id": "Potniae-Glaucus#target-1-sel-1",  <strong class="instructions">reuse the short ID you have created, followed with #target-1-sel-1 If you have only one target and one selector (which is the case for this project), all your annotations will have #target-1-sel-1</strong>
                 "@type": "oa:TextQuoteSelector",  <strong class="instructions">leave as is</strong>
-                "exact": "Potniae",  <strong class="instructions">enter the place name that constitutes your annotation</strong>
+                "exact": "Potniae",  <strong class="instructions">enter the place name exactly as it appears in the Smith text</strong>
                 "prefix": "he lived at",   <strong class="instructions">enter the few words that precede the place name in the Smith entry</strong>
                 "suffix": ", despised the power of Aphrodite"  <strong class="instructions">enter the few words that follow the place name in the Smith entry</strong>
                },  
