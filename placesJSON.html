@@ -1,0 +1,91 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Instructions for Place Annotations Using JSON-LD</title>
+        <style type="text/css">
+            #example-glaucus {
+                background-color: rgb(245, 245, 240);
+                }
+                #example-with-notes {
+                background-color: rgb(245, 245, 240);
+                }
+                .instructions {
+                color: red;
+                font-family: sans-serif
+        </style>
+    </head>
+    <body>
+        <h1>Instructions for Place Annotations Using JSON-LD</h1>
+        
+       <h2>Step 1</h2>
+        <p>Copy and paste the following in a plain text document:</p>
+       <pre id="example-glaucus">
+      {
+          "@context": "http://www.w3.org/ns/oa-context-20130208.json",
+            "@id": " Glaucus",   
+            "annotatedBy": {
+               "@type": "foaf:Person",  
+                "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu"   
+            },
+            "@type": "oa:Annotation",  
+            "dcterms:title": "Identifies Potniae as the town in which Glaucus gets devoured by his mares",  
+            "annotatedAt": "2015-12-01",  
+            "motivatedBy": "oa:identifying",  
+        
+            },  
+            "hasTarget": {  
+            "@id": "Potniae-Glaucus#target-1",  
+            "@type": "oa:SpecificResource",  
+            "hasSelector": {  
+                "@id": "Potniae-Glaucus#target-1-sel-1",  
+                "@type": "oa:TextQuoteSelector",  
+                "exact": "Potniae",  
+                "prefix": "he lived at",   
+                "suffix": ", despised the power of Aphrodite"  
+               },  
+            "hasSource": {  
+              "@id": "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:G.glaucus_1"   
+               }  
+            },  
+            "hasBody": [  
+            {  
+               "@id": "http://pleiades.stoa.org/places/541070#this"  
+]   </pre>
+        <h2>Step 2</h2> 
+        <p>Customize with the appropriate information for the annotation you are creating, as follows</p>
+        <pre id="example-with-notes">
+      
+        {
+          "@context": "http://www.w3.org/ns/oa-context-20130208.json", <strong class="instructions">leave as is</strong>
+            "@id": "Potniae Glaucus",   <strong class="instructions">create a short ID for your annotation. Each must be unique</strong>
+            "annotatedBy": { <strong class="instructions">leave as is</strong>
+               "@type": "foaf:Person",  <strong class="instructions">leave as is</strong>
+               "@id": "http://sosol.perseids.org/sosol/users/Marie-Claire%20Beaulieu" "http://sosol.perseids.org/sosol/users/balmas01@tufts.edu"<a target="blank" href="http://marie-clairebeaulieu.github.io/findIDurl.html"><strong class="instructions">Find this ID on Perseids</strong></a>
+            },
+            "@type": "oa:Annotation",  <strong class="instructions">leave as is</strong>
+            "dcterms:title": "Identifies Potniae as the town in which Glaucus gets devoured by his mares",  <strong class="instructions">create a descriptive ID for your annotation</strong>
+            "annotatedAt": "2015-12-01",  <strong class="instructions">year-month-date</strong>
+            "motivatedBy": "oa:identifying",   <strong class="instructions">leave as is</strong>
+        
+            },  
+            "hasTarget": {  <strong class="instructions">leave as is</strong>
+            "@id": "Potniae-Glaucus#target-1",  <strong class="instructions">reuse the short ID you have created, followed with #target-1. If you have only one target (which is the case for this project), all your annotations will have #target-1</strong>
+            "@type": "oa:SpecificResource",  <strong class="instructions">leave as is</strong>
+            "hasSelector": {  <strong class="instructions">leave as is</strong>
+                "@id": "Potniae-Glaucus#target-1-sel-1",  <strong class="instructions">reuse the short ID you have created, followed with #target-1-sel-1 If you have only one target and one selector (which is the case for this project), all your annotations will have #target-1-sel-1</strong>
+                "@type": "oa:TextQuoteSelector",  <strong class="instructions">leave as is</strong>
+                "exact": "Potniae",  <strong class="instructions">enter the place name that constitutes your annotation</strong>
+                "prefix": "he lived at",   <strong class="instructions">enter the few words that precede the place name in the Smith entry</strong>
+                "suffix": ", despised the power of Aphrodite"  <strong class="instructions">enter the few words that follow the place name in the Smith entry</strong>
+               },  
+            "hasSource": {  <strong class="instructions">leave as is</strong>
+              "@id": "urn:cts:pdlrefwk:viaf88890045.003.perseus-eng1:G.glaucus_1"   <strong class="instructions">Customize the initial and name ID for your entry with the name of the mythological figure you are annotating </strong>
+               }  
+            },  
+            "hasBody": [  
+            {  
+               "@id": "http://pleiades.stoa.org/places/541070#this"  <strong class="instructions"><a target="blank" href="https://github.com/perseids-project/perseids_docs/wiki/Hypothes.is-annotations-for-Classical-Mythology-2015#annotating-places">Find the place name on Pleiades</a>, copy and paste the url here, and add "#this" at the end in order to indicate that this is a specific resource</strong></pre>
+    <h2>Step 3</h2>
+        <p>Save your text document and email it to Marie-Claire.Beaulieu@Tufts.edu</p>
+    </body>
+</html>
