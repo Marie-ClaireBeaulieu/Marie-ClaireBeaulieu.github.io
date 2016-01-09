@@ -20,6 +20,7 @@ body {
   left: 1%;
   z-index: 20;
   color: black;
+  border: 3px solid black;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
@@ -32,7 +33,7 @@ body {
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
+  width: 100%;
 }
 
 
@@ -70,13 +71,20 @@ body {
 .headers-of-steps {
   margin-bottom: 20px;
   text-align: center;
+  color: aqua;
+  margin: auto;
+  position: relative;
 }
 .marketing h2 {
   font-weight: normal;
+  margin: auto;
+  position: relative;
 }
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
+  margin: auto;
+  position: relative;
 }
 
 
