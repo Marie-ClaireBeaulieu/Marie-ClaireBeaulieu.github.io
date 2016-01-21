@@ -1,0 +1,17 @@
+#blurb {
+            float: left;
+            position: absolute;
+            color: rgb(235, 235, 224);
+            }
+            #cover-image {
+            border: 3px ridge red;
+            }
+            .myCarousel {
+            margin-left: 30%
+            }
+            body {
+            background-color: black;
+            }
+            .whitetext {
+            color: white;
+            }
