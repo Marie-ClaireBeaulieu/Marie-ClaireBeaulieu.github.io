@@ -14,6 +14,11 @@
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <style>
+            #ares {
+            width: 200px;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid">
@@ -21,18 +26,33 @@
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
                         <li class="active"><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/InstructionsHypothesis.html">Overview <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Prerequisites</a></li>
-                        <li><a href="#">Persons</a></li>
-                        <li><a href="#">Relationships</a></li>
-                        <li><a href="">Attestations of Relationships</a></li>
-                        <li><a href="">Characterizations</a></li>
-                        <li><a href="">Places</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Prerequisites.html">Prerequisites</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Persons.html">Persons</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Relationships.html">Relationships</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/AttestationsOfRelationships.html">Attestations of Relationships</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Characterizations.html">Characterizations</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Places.html">Places</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Places.html">Load into Perseids</a></li>
                     </ul>
                 </div> 
-                <div class="col-sm-9 col-md-10">
-                    <div class="page-header">
-                    </div> 
+                <div class="col-sm-8 text-left">
+                    <div class="page-header text-center">
+                        <h1>Attestations of Relationships<br /><small>Annotate the bibliographic reference as an attestation of the relationship annotated in the previous step</small></h1></div>
                     
+                    
+                    <div class="container-fluid">
+                       <ol type="1"> <li>Highlight the text indicating the relationship (e.g. "was the son of")</li>
+                           <li>Locate the Stable CTS URN identifier for the bibliographic reference and add it to the annotation. In most cases, you can simply click on the linked reference to Perseus, open it in a new tab, and find the Citation URI in the righ-hand column of the Perseus display</li>
+                       <li>Locate the URI for the relationship annotation created in (2) and add it to the annotation (on a new line)</li>
+                        <li>Add keywords:</li>
+                        <ol type="a"><li>attestationOf to identify this as an attestation annotation</li>
+                        <li>PSN to identify the annotation was created for "Perseids Social Network"</li></ol>
+                        <li>Save</li></ol>
+                    </div>
+                </div>
+                <div class="col-sm-2 sidenav"><img id="ares" src="http://Marie-ClaireBeaulieu.github.io/images/ares.jpg" alt="Ares"></img>
+                </div>
+            </div>
                     <!-- Bootstrap core JavaScript
     ================================================== -->
                     <!-- Placed at the end of the document so the pages load faster -->

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Persons</title>
+        <title>Load Annotations into Perseids</title>
         
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet"></link>
@@ -15,15 +15,18 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <style>
-            #artemis {
+            #lightning {
             width: 200px;
+            }
+            #graph {
+            width: 500px;
             }
         </style>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-2 sidenav">
+                <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
                         <li class="active"><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/InstructionsHypothesis.html">Overview <span class="sr-only">(current)</span></a></li>
                         <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Prerequisites.html">Prerequisites</a></li>
@@ -37,29 +40,23 @@
                 </div> 
                 <div class="col-sm-8 text-left">
                     <div class="page-header text-center">
-                        <h1>Persons<br /><small>Identify the people in the social network</small></h1></div>
+                        <h1>Load Annotations Into Perseids<br /><small>Data will be ingested and serialized in Perseids</small></h1></div>
                     
                     
-                    <div class="container-fluid"><ol type="1"><li>Annotate a person mentioned in the Smith's entry with the Stable Identifier for that person</li>
-                        <li>Highlight a person name to initiate an annotation</li>
-                        <li>Locate the stable id of the person resource and add it to the annotation</li>
-                        <li>Add keywords:
-                            <ol type="a">
-                                <li>person to identify this as a person annotation</li>
-                                <li>PSN to identify the annotation was created for "Perseids Social Network"</li>
-                                </ol></li>
-                        <li>Set annotation to public</li>
-                        <li>Save</li></ol></div>
+                    <div class="container-fluid">
+                        <ol><li>Load the hypothes.is annotation ids into a Google spreadsheet to be imported into Perseids</li>
+                        <li>Follow these <a href="http://sites.tufts.edu/perseids/instructions/importing-annotations/uploading-googlespreadsheet-data-as-annotations/">instructions</a></li></ol>
+                        <img id="graph" src="http://www.gliffy.com/go/publish/image/8865223/L.png"/>
+                    </div>
                 </div>
-                <div class="col-sm-2 sidenav"><img id="artemis" src="http://Marie-ClaireBeaulieu.github.io/images/artemis.jpg" alt="Artemis"></img>
+                <div class="col-sm-2 sidenav"><img id="lightning" src="http://Marie-ClaireBeaulieu.github.io/images/Lightning.jpg" alt="Lightning hits a tree"></img>
                 </div>
             </div>
-                    
-                    <!-- Bootstrap core JavaScript
+            <!-- Bootstrap core JavaScript
     ================================================== -->
-                    <!-- Placed at the end of the document so the pages load faster -->
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-                    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
