@@ -29,7 +29,7 @@
       <address>Marie-Claire.Beaulieu@Tufts.edu</address>
       <uri>http://data.perseus.org/sosol/users/Marie-Claire%20B</uri>
    </annotator>
-   <sentence id="1" document_id="" subdoc="" span="">
+   <sentence id="1" document_id="https://github.com/Marie-ClaireBeaulieu/Marie-ClaireBeaulieu.github.io/edit/master/perseus-grctb.3085.1.xml" subdoc="" span="">
       <word id="1" form="Ἑλλὰς" lemma="Ἑλλάς" postag="n-s---fn-" relation="SBJ" head="6"/>
       <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="AuxY" head="6"/>
       <word id="3" form="πρωτεῖα" lemma="πρωτεῖον" postag="n-p---na-" relation="OBJ" head="6"/>
