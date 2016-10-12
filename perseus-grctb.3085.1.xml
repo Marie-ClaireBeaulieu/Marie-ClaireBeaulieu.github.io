@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="grc"
+          format="aldt"
+          direction="ltr"
+          version="1.5">
+   <date>2016-04-19 14:15:10 +0000</date>
+   <annotator>
+      <short>arethusa</short>
+      <name>arethusa</name>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+   </annotator>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://services2.perseids.org/llt/segtok</uri>
+   </annotator>
+   <annotator>
+      <short/>
+      <name/>
+      <address/>
+      <uri>http://github.com/latin-language-toolkit/arethusa</uri>
+   </annotator>
+   <annotator>
+      <short>Marie-Claire B</short>
+      <name>Marie-Claire Beaulieu</name>
+      <address>Marie-Claire.Beaulieu@Tufts.edu</address>
+      <uri>http://data.perseus.org/sosol/users/Marie-Claire%20B</uri>
+   </annotator>
+   <sentence id="1" document_id="https://github.com/Marie-ClaireBeaulieu/Marie-ClaireBeaulieu.github.io/edit/master/perseus-grctb.3085.1.xml" subdoc="" span="">
+      <word id="1" form="Ἑλλὰς" lemma="Ἑλλάς" postag="n-s---fn-" relation="SBJ" head="6"/>
+      <word id="2" form="μὲν" lemma="μέν" postag="d--------" relation="AuxY" head="6"/>
+      <word id="3" form="πρωτεῖα" lemma="πρωτεῖον" postag="n-p---na-" relation="OBJ" head="6"/>
+      <word id="4" form="τέχνης" lemma="τέχνη" postag="n-s---fg-" relation="ATR" head="3"/>
+      <word id="5" form="αὐλῶν" lemma="αὐλέω" postag="v-sppamn-" relation="ATR" head="4"/>
+      <word id="6" form="ἀπένειμεν" lemma="ἀπονέμω" postag="v3saia---" relation="PRED" head="11"/>
+      <word id="7" form="Θηβαίωι" lemma="Θηβαῖος" postag="a-s---md-" relation="ATR" head="8"/>
+      <word id="8" form="Ποτάμωνι" lemma="Ποτάμων" postag="n-s---md-" relation="OBJ" head="6"/>
+      <word id="9" form="," lemma="punc1" postag="u--------" relation="AuxX" head="13"/>
+      <word id="10" form="τάφος" lemma="τάφος1" postag="n-s---mn-" relation="SBJ" head="13"/>
+      <word id="11" form="δ’" lemma="δ’" postag="c--------" relation="COORD" head="15"/>
+      <word id="12" form="ὅδε" lemma="ὅδε" postag="p-s---mn-" relation="ATR" head="10"/>
+      <word id="13" form="δέξατο" lemma="δέχομαι" postag="v3saim---" relation="PRED_CO" head="17"/>
+      <word id="14" form="σῶμα" lemma="σῶμα" postag="n-s---na-" relation="OBJ" head="13"/>
+      <word id="15" form="·" lemma="" postag="" relation="COORD" head="0"/>
+      <word id="16" form="πατρὸς" lemma="πατήρ" postag="n-s---mg-" relation="OBJ" head="21"/>
+      <word id="17" form="δὲ" lemma="δέ" postag="d--------" relation="COORD" head="15"/>
+      <word id="18" form="μνήμαισιν" lemma="μνήμη" postag="n-p---fd-" relation="ADV" head="20"/>
+      <word id="19" form="Ὀλυνπίχου" lemma="Ὀλυνπίχου" postag="n-s---mg-" relation="ATR" head="21"/>
+      <word id="20" form="αὔξετ’" lemma="αὔξετ’" postag="v3saia---" relation="PRED_CO" head="17"/>
+      <word id="21" form="ἔπαινος" lemma="ἔπαινος" postag="n-s---mn-" relation="SBJ" head="20"/>
+      <word id="22" form="οἷον" lemma="οἷος" postag="a-s---ma-" relation="ATR" head="24"/>
+      <word id="23" form="ἐτέκνωσεμ" lemma="ἐτέκνωσεμ" postag="v3saia---" relation="PRED_CO" head="17"/>
+      <word id="24" form="παῖδα" lemma="παῖς" postag="n-s---fa-" relation="OBJ" head="23"/>
+      <word id="25" form="σοφοῖς" lemma="σοφός" postag="a-p---md-" relation="ATR" head="26"/>
+      <word id="26" form="βάσανον" lemma="βάσανος" postag="n-s---fa-" relation="OCOMP" head="23"/>
+      <word id="27" form="." lemma="punc1" postag="u--------" relation="AuxK" head="0"/>
+   </sentence>
+</treebank>
