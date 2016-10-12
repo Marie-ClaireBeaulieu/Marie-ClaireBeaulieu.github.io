@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Characterizations</title>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous"></link>  
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <style>
+            #perseus {
+            width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 sidenav">
+                    <ul class="nav nav-sidebar">
+                        <li class="active"><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/InstructionsHypothesis.html">Overview <span class="sr-only">(current)</span></a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Prerequisites.html">Prerequisites</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Persons.html">Persons</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Relationships.html">Relationships</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/AttestationsOfRelationships.html">Attestations of Relationships</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Characterizations.html">Characterizations</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/Places.html">Places</a></li>
+                        <li><a href="http://Marie-ClaireBeaulieu.github.io/Hypothes.is annotations/LoadIntoPerseids.html">Load into Perseids</a></li>
+                    </ul>
+                </div> 
+                <div class="col-sm-8 text-left">
+                    <div class="page-header text-center">
+                        <h1>Characterizations<br/><small>How do ancient texts describe this mythological figure?</small></h1></div>
+                    
+                    <div class="container-fluid">
+                        <ol type="1">
+                            <li>Highlight the text indicating the person name</li>
+                            <li>On Perseus, use the top right hand corner search box to search for your mythological figure's name. Beware of homonyms! Many figures share the same name in ancient mythology</li>
+                            
+                            <ul>
+                                <li>Example: A search for Glaucus (in a case where you mean to search for the son of Sisyphus) returns entries on Glaucus of Carystus and Glaucus' exchange with Diomedes in the Iliad. Also returns a passage of Strabo, 9.2.24 describing how Glaucus of Potniae (the son of Sisyphus) was torn up by his own mares. Since this passage describes the figure you are looking for, select the Greek word that corresponds to "torn up" (διασπασθέντα) as a characterization</li>
+                            </ul>
+                            
+                            <li>Locate the Stable CTS URN identifier for the characterization reference (in this example the CTS URN for the Strabo text) and add it to the annotation</li>
+                            <li>Copy the Citation URI from the Perseus page on which you found the text. E.g. http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-eng1:9.2.23</li>
+                            <li>Append the actual text you want to reference, separating with an @</li>
+                        
+                        <ul><li>E.g. http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-eng1:9.2.23@torn to pieces</li>
+                        </ul>
+                        
+                        <li>Copy this full URI into the body of the annotation</li>
+                        <li>Put the the source text in focus</li>
+                        <li>Copy the Citation URI of the source text</li>
+                        <ul>
+                        <li>E.g http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:9.2.23</li></ul>
+                        
+                       <li>Find the Greek (or Latin) text you want to reference, appending it to the URI separating with an @</li>
+                        
+                        <ul><li>E.g. http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:9.2.23@διασπασθέντα</li></ul>
+                        
+                        <li>Add keywords:
+                        <ol><li>characterizationOf to identify this as an characterization annotation</li>
+                        <li>PSN to identify the annotation was created for "Perseids Social Network"</li></ol></li>
+                        <li>Save</ol></li>
+                        <ul><li>You can see an example of a characterization annotation <a target="blank" href="https://hypothes.is/a/jOJThDyQQsau1nUccGvlOQ">here</a></li></ul></ol>
+                    </div>
+                </div>
+                <div class="col-sm-2 sidenav"><img id="perseus" src="http://Marie-ClaireBeaulieu.github.io/images/Perseus.jpg" alt="Perseus"></img>
+                </div>
+            </div>
+                    <!-- Bootstrap core JavaScript
+    ================================================== -->
+                    <!-- Placed at the end of the document so the pages load faster -->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
